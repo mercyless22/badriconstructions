@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon | Badri Constructions</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom, #1c75b7, #ffffff); /* Gradient updated */
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .logo {
+      max-width: 250px;
+      animation: float 3s infinite ease-in-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 20px 0;
+      animation: textGlow 2s infinite alternate;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .follow-us {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+
+    .follow-us img {
+      width: 30px;
+      height: 30px;
+      filter: brightness(0) invert(1); /* Ensures a white logo */
+    }
+
+    .follow-us a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    .follow-us a:hover {
+      color: #1c75b7;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes textGlow {
+      0% {
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #1c75b7;
+      }
+      100% {
+        text-shadow: 0 0 20px #ffffff, 0 0 30px #1c75b7, 0 0 40px #ffffff;
+      }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #1c75b7;
+    }
+
+    footer a {
+      color: #1c75b7;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #70a2c9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/images/badri CONSTRUCTIONS.png" alt="Badri Constructions Logo" class="logo">
+    <h1>We're Building Something Incredible</h1>
+    <p>Stay tuned! Launching soon with innovation and quality.</p>
+    <div class="follow-us">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram Icon">
+      <a href="https://www.instagram.com/badriconstructions" target="_blank">Follow us on Instagram</a>
+    </div>
+  </div>
+  <footer>
+    © 2024 All rights reserved by Badri Constructions. <br> Developed by <a href="https://www.instagram.com/badri_quantech" target="_blank">Badri Quantech</a>.
+  </footer>
+</body>
+</html>
